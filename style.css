@@ -1,0 +1,355 @@
+    body {
+        background: url("design/bg.png") 0 0 repeat-x;
+        font: 0.8em/1.5 "arial", sans-serif;
+    }
+    /*..................all pages..................*/
+    
+    #header {
+        height: 140px;
+        overflow: hidden;
+        background: url("design/header.png");
+    }
+    
+    #logo {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        margin: 0;
+        font-size: 350%;
+        line-height: 1;
+        letter-spacing: -2px;
+        font-weight: normal;
+        color: #FFF;
+    }
+    
+    #logo span {
+        font-weight: bold;
+    }
+    
+    #nav {
+        position: absolute;
+        top: 38px;
+        right: 40.0%;
+        font-size: 150%;
+        align-content: right;
+    }
+    
+    #nav li {
+        list-style: none;
+        display: inline;
+        float: left;
+        position: relative;
+    }
+    
+    #nav li a {
+        display: block;
+        float: left;
+        padding: 6px 12px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #FFF;
+    }
+    
+    #nav li a:hover {
+        text-decoration: underline;
+        color: red;
+    }
+    
+    #nav li.current a {
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        text-decoration: none;
+        background-color: #FFF;
+        color: #004B96;
+    }
+    
+    #nav ul {
+        position: absolute;
+        visibility: hidden;
+        top: 35px;
+    }
+    
+    #nav ul li {
+        background-color: #F1F1F1;
+        display: block;
+        width: 130px;
+        text-align: center;
+    }
+    
+    #nav ul li a {
+        color: #000000;
+    }
+    
+    #nav li:hover ul {
+        visibility: visible
+    }
+    
+    a:hover,
+    a:active,
+    a:focus {
+        color: #0065C8;
+    }
+    /*.....................index page......................*/
+    
+    .post {
+        margin-left: 25px;
+        width: 450px;
+        height: 420px;
+        float: left;
+        vertical-align: 10px;
+        padding: 0 10px;
+    }
+    
+    .post h2 {
+        font-size: 1.5em;
+        background-color: #F1F1F1;
+        padding: 2px 5px;
+        border-bottom: 1px solid #EDEDED;
+    }
+    
+    .post h2 a {
+        color: #588CB8;
+    }
+    
+    .date {
+        margin-left: 20px;
+        font-size: 1.0em;
+        padding: 8px 5px;
+    }
+    
+    .date a {
+        color: #4DB200;
+    }
+    
+    .post .thumb {
+        width: 400px;
+        height: 180px;
+        overflow: hidden;
+        margin-left: 20px;
+    }
+    
+    .post .thumb img {
+        width: 400px;
+    }
+    
+    .post p {
+        padding: 10px;
+        line-height: 1.4em;
+    }
+    
+    .post .readmore {
+        display: block;
+        float: right;
+        text-indent: -9999px;
+        width: 101px;
+        height: 19px;
+        outline: none;
+        background: url(images/readmore.gif) no-repeat 0 0;
+    }
+    
+    #login {
+        margin-left: 850px;
+        margin-top: 60px;
+    }
+    
+    #login .form-control {
+        width: 150px;
+        height: 30px;
+        border-radius: 20px;
+        padding-left: 7px;
+    }
+    
+    #login .btn {
+        color: #588CB8;
+        width: 100px;
+        height: 35px;
+        background-color: mintcream;
+        border-radius: 20px;
+        font-size: 18px;
+    }
+    
+    #signup {
+        width: 300px;
+        margin-top: 5px;
+        float: right;
+    }
+    
+    #signup h1 {
+        color: #588CB8;
+        font-size: 1.5em;
+        background-color: #F1F1F1;
+        padding: 2px 5px;
+        border-bottom: 1px solid #EDEDED;
+    }
+    
+    #signup .form-control {
+        width: 220px;
+        height: 25px;
+        border-radius: 90px;
+        padding-left: 70px;
+    }
+    
+    #signup input#email {
+        width: 220px;
+        height: 30px;
+        border-radius: 5px;
+        padding-left: 50px;
+        background-image: url("images/email.png");
+        background-repeat: no-repeat;
+        background-position: 8px 1px;
+    }
+    
+    #signup input#password {
+        width: 220px;
+        height: 30px;
+        border-radius: 5px;
+        padding-left: 50px;
+        background-image: url("images/pass.png");
+        background-repeat: no-repeat;
+        background-position: 8px 1px;
+    }
+    
+    #signup input#user {
+        width: 220px;
+        height: 30px;
+        border-radius: 5px;
+        padding-left: 50px;
+        background-image: url("images/user.png");
+        background-repeat: no-repeat;
+        background-position: 8px 1px;
+    }
+    
+    #signup .btn {
+        right: 0.0%;
+        align-content: right;
+        color: #588CB8;
+        width: 100px;
+        height: 35px;
+        background-color: mintcream;
+        border-radius: 5px;
+        font-size: 18px;
+        position: absolute;
+        right: 3.0%;
+    }
+    /*.................................home page..........................*/
+    
+    #sidebar {
+        width: 320px;
+        height: 500px;
+        margin-top: 20px;
+        color: white;
+        float: right;
+    }
+    
+    #sidebar ul {
+        list-style-type: none;
+    }
+    
+    #sidebar .btnn {
+        text-decoration-style: none;
+        color: #588CB8;
+        margin-left: 1px;
+        margin-top: 15px;
+        width: 250px;
+        height: 50px;
+        background-color: mintcream;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    /*.................................Megazine page..............*/
+    
+    #imga {
+        float: right;
+        width: 600px;
+        height: 800px;
+        margin: 30px;
+        background-image: url("images/intera.jpg");
+        background-repeat: no-repeat;
+    }
+    
+    .megazine {
+        font-size: 18px;
+    }
+    /*......................faq page..................*/
+    
+    .faq {
+        font-size: 18px;
+    }
+    
+    .Question {
+        padding-top: 5px;
+        padding-left: 5px;
+        margin: 20px;
+        width: 800px;
+        height: 40px;
+        background-color: lightskyblue;
+    }
+    
+    .Answere {
+        padding-top: 5px;
+        padding-left: 5px;
+        margin: 20px;
+        width: 800px;
+        height: 80px;
+        background-color: lightgreen;
+    }
+    
+    #next {
+        width: 100px;
+        float: right;
+    }
+    
+    #next .megbtn {
+        width: 80px;
+        height: 30px;
+    }
+    
+    #previous {
+        width: 100px;
+        float: left;
+    }
+    
+    #previous .megbtn1 {
+        width: 80px;
+        height: 30px;
+    }
+    /*..................about page.................*/
+    
+    #aboutmenu {
+        margin-left: 20px;
+        width: 1000px;
+        height: 850px;
+        background-color: lightcyan;
+    }
+    
+    #about {
+        vertical-align: 10px;
+        float: left;
+        margin-top: 20px;
+        width: 500px;
+        height: 250px;
+        background-color: pink;
+        margin-left: 20px;
+    }
+    
+    #about h1 {
+        display: block;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 24px;
+        text-decoration: underline;
+    }
+    
+    #about .image {
+        display: inline;
+        margin-top: -10px;
+        margin-left: 5px;
+    }
+    
+    #about .pro {
+        margin: 3px;
+        font-weight: bold;
+        font-size: 14px;
+        display: inline;
+    }
